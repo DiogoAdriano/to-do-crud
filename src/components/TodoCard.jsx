@@ -1,7 +1,7 @@
 export function TodoCard(props) {
     const { todo, handleDeleteTodo, todoIndex, handleCompleteTodo } = props
-    
-    return(
+
+    return (
         <div className="card todo-item">
             <p>{todo.input}</p>
             <div className="todo-buttons">
